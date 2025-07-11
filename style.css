@@ -5,6 +5,32 @@
     font-family: 'Roboto';
 }
 
-.header {
-    
+#panel-one {
+    background-color: #1f2937;
+}
+
+#panel-one .header {
+    display: flex;
+    padding: 16px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#panel-one .title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#panel-one ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+#panel-one ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }

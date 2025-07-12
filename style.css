@@ -87,13 +87,18 @@ body {
     margin-bottom: -8px;
 }
 
-#panel-one .content button {
+button {
     background-color: #3882f6;
     padding: 8px 24px;
-    border: none;
     border-radius: 8px;
     color: white;
-    width: 96px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#panel-one .content button {
+    border: none;
 }
 
 #panel-one .content.placeholder {
@@ -168,7 +173,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px 0;
+    padding: 80px 0;
 }
 
 #panel-four .container {
@@ -193,15 +198,7 @@ body {
 }
 
 #panel-four button {
-    background-color: #3882f6;
-    padding: 8px 24px;
-    border: none;
-    border-radius: 8px;
     border: 2px solid white;
-    color: white;
-    width: 120px;
-    font-size: 16px;
-    font-weight: 500;
 }
 
 #footer {

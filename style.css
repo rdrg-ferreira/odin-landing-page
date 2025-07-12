@@ -163,3 +163,43 @@ body {
     text-align: right;
     padding-right: 72px;
 }
+
+#panel-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+#panel-four .container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 1000px;
+}
+
+#panel-four .text, #panel-four .title, #panel-four button{
+    color: white;
+}
+
+#panel-four .title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+#panel-four button {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+}

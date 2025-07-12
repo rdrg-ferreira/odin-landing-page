@@ -73,7 +73,8 @@ body {
 #panel-one .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 16px;
 }
 
 #panel-one .content * {
@@ -141,4 +142,24 @@ body {
     border-radius: 16px;
     width: inherit;
     height: 150px;
+}
+
+#panel-three {
+    background-color: #e5e7eb;
+    padding: 120px 380px;
+}
+
+#panel-three .text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#panel-three .text.attribution {
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+    padding-right: 72px;
 }

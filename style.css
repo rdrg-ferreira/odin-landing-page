@@ -102,3 +102,43 @@ body {
     align-items: center;
     color: white;
 }
+
+#panel-two {
+    display: flex;
+    flex-direction: column;
+}
+
+#panel-two .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+#panel-two .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 64px;
+}
+
+#panel-two .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+#panel-two .placeholder {
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    width: inherit;
+    height: 150px;
+}
